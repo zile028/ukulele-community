@@ -1,0 +1,58 @@
+@import "starter";
+@import "mixins";
+
+/* GLOBAL */
+button {
+  border: 2px solid $crvena;
+  color: $crvena;
+  padding: 0.8em 1.2em;
+  font-size: 1.3rem;
+  line-height: 1;
+  border-radius: 1.6em;
+  background: transparent;
+  cursor: pointer;
+  transition: $transition;
+  &:hover {
+    background: $crvena;
+    color: $bela;
+  }
+}
+/* HEADER */
+header {
+  @include flex(center, center, column);
+  @include bgBasic;
+  background-image: linear-gradient(rgba($crna, 0.9), rgba($crna, 0.9)),
+    url(../img/header.jpg);
+  height: 70vh;
+  color: $bela;
+  font-size: 1.5rem;
+  h1 {
+    font-size: 3em;
+  }
+  p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+  }
+}
+
+/* about */
+.about {
+  background-image: linear-gradient(rgba(black, 0.85), rgba(black, 0.85)),
+    url(../img/ukuleleDev.jpg);
+  @include bgBasic;
+  background-attachment: fixed;
+  article {
+    @include flex(space-between, stretch);
+    div {
+      background-color: $bela;
+      flex: 0 0 50%;
+      margin-bottom: 40px;
+      &:last-child {
+        padding: 40px;
+      }
+    }
+  }
+}
+/* header */
+/* header */
+/* header */

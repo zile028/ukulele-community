@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Fondamento|Nunito:300,400&display=swap");
+/*--- FONTS ---*/
+/*--- COLORS ---*/
+/* rgb(41, 47, 54) */
+/* rgb(78, 205, 196) */
+/* rgb(255, 107, 107) */
+/*--- RESET STYLE ---*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.py {
+  padding: 70px 0;
+}
+
+@media (max-width: 769px) {
+  .py {
+    padding: 40px 0;
+  }
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media (max-width: 769px) {
+  .container {
+    width: 90%;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fondamento", cursive;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* GLOBAL */
+button {
+  border: 2px solid #ff6b6b;
+  color: #ff6b6b;
+  padding: 0.8em 1.2em;
+  font-size: 1.3rem;
+  line-height: 1;
+  border-radius: 1.6em;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+button:hover {
+  background: #ff6b6b;
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(41, 47, 54, 0.9)), to(rgba(41, 47, 54, 0.9))), url(../img/header.jpg);
+  background-image: linear-gradient(rgba(41, 47, 54, 0.9), rgba(41, 47, 54, 0.9)), url(../img/header.jpg);
+  height: 70vh;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+}
+
+/* about */
+.about {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url(../img/ukuleleDev.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/ukuleleDev.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.about article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about article div {
+  background-color: #fff;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  margin-bottom: 40px;
+}
+
+.about article div:last-child {
+  padding: 40px;
+}
+
+/* header */
+/* header */
+/* header */
+/*# sourceMappingURL=style.css.map */
