@@ -42,12 +42,12 @@
     </section>
 
     <!-- gallery -->
-    <section class="gallery container">
+    <section class="gallery py">
         <h2>Gallery</h2>
-        <article>
+        <article class="container">
             <div><img src="img/img1.jpg" alt=""></div>
             <div><img src="img/img2.jpg" alt=""></div>
-            <div><img src="img/img2.jpg" alt=""></div>
+            <div><img src="img/img3.jpg" alt=""></div>
             <div><img src="img/img4.jpg" alt=""></div>
             <div><img src="img/img5.jpg" alt=""></div>
             <div><img src="img/img6.jpg" alt=""></div>
@@ -60,19 +60,25 @@
     <!-- footer -->
     <footer>
         <h2>Get in touch</h2>
-        <form action="">
-            <label for="name">Name</label>
-            <input type="text" name="name" placeholder="Enter your name">
-
-            <label for="email">Email</label>
-            <input type="email" name="email" placeholder="Enter your email">
-
-            <label for="message">Message</label>
-            <textarea name="Message" cols="30" rows="10" placeholder="Type your message"></textarea>
+        <form class="container">
+            <fieldset>
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Enter your name">
+            </fieldset>
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter your email">
+            </fieldset>
+            <fieldset>
+                <label for="message">Message</label>
+                <textarea name="Message" cols="30" rows="10" placeholder="Type your message"></textarea>
+            </fieldset>
         </form>
-        <a href=""><i class="fab fa-facebook"></i></a>
-        <a href=""><i class="fab fa-instagram"></i></a>
-        <a href=""><i class="fab fa-twitter"></i></a>
+        <article>
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+        </article>
     </footer>
 
 </body>

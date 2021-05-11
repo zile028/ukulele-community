@@ -11,9 +11,10 @@ $zelena: #4ecdc4; /* rgb(78, 205, 196) */
 $bela: #fff;
 $crvena: #ff6b6b; /* rgb(255, 107, 107) */
 $svetlosiva: #ede8e8;
+$darkBlack: #000;
 
 $transition: 0.4s ease;
-$boxShadow: 0 5px 10px 0px rgba($crna, 0.5);
+$boxShadow: 0 0px 5px 3px rgba($crna, 0.5);
 
 /*--- RESET STYLE ---*/
 * {
@@ -35,7 +36,7 @@ body {
 .py {
   padding: 70px 0;
   @media (max-width: 769px) {
-    padding: 40px 0;
+    padding: 30px 0;
   }
 }
 .container {
